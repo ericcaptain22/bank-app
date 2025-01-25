@@ -1,0 +1,13 @@
+user1: Deposit 99.00. New Balance: 10100.00
+user1: Withdraw 99.00. New Balance: 10001.00
+user1: Transfer 1.00 to user2. New Balance: 10000.00
+user1: Loan 1.00. New Balance: 10001.00
+user1: Deposit 1.00. New Balance: 10002.00
+user1: Deposit 98.00. New Balance: 10100.00
+user1: Withdraw 100.00. New Balance: 10000.00
+user1: Transfer 1.00 to user2. New Balance: 9999.00
+user1: Loan 1.00. New Balance: 10000.00
+user1: Deposit 100.00. New Balance: 10100.00
+user2: Deposit 1.00. New Balance: 1553.00
+user1: Deposit 1.00. New Balance: 10101.00
+user1: Withdraw 1.00. New Balance: 10100.00
