@@ -89,6 +89,34 @@ On Windows, GTK+ 3 is not pre-installed. You need to install and set up GTK+ 3 m
 
 ---
 
+## **Project File Structure**
+
+The following is the structure of the project:
+
+```
+bank-debugging-app/
+├── src/
+│   ├── database.c         # Handles user data read/write
+│   ├── database.h         # Header for database functions
+│   ├── main.c             # Main application logic
+│   ├── bugs.c             # Buggy functions
+│   ├── bugs.h             # Header for bugs
+│   ├── navigation.c       # Navigation logic
+│   ├── navigation.h       # Header for navigation
+│   ├── user.h             # User structure and global users
+│   ├── hints.h            # Hints for bugs
+│   ├── style.css          # CSS for GUI styling
+├── assets/
+│   ├── users.txt          # Plain text file for storing user data
+│   ├── history.txt        # Plain text file for storing all transaction history
+├── build/
+│   ├── bank_app           # Compiled binary
+├── Makefile               # Build instructions
+└── README.md              # Instructions
+```
+
+---
+
 ## **Bundling the Application**
 
 To make it easier for others to run your app on Windows or Linux, you can bundle the required GTK+ libraries with the executable.
@@ -112,6 +140,4 @@ To make it easier for others to run your app on Windows or Linux, you can bundle
 | PKG-Config      | Included with `libgtk-3-dev`        | Included with `mingw-w64-x86_64-gtk3` |
 
 ---
-
-
 
